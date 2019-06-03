@@ -1,0 +1,23 @@
+.kr-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 67px;
+
+  .kr-logo {
+    width: 80px;
+    height: 14px;
+    margin-left: 10px;
+  }
+
+  .kr-nav-buttons-block {
+    margin-left: auto;
+    margin-right: auto;
+
+    .kr-nav-buttons {
+      border-left: false;
+    }
+
+  }
+}
