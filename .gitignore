@@ -18,9 +18,9 @@ backend/__pycache__/
 backend/db.sqlite3
 
 # django migrations
-**/migrations/**
-!**/migrations
-!**/migrations/__init__.py
+backend/**/migrations/**
+backend/!**/migrations
+backend/!**/migrations/__init__.py
 
 
 # Environments
