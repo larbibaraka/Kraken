@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import 'uikit/dist/css/uikit.min.css';
 import * as serviceWorker from './serviceWorker';
 import { ApolloClient } from 'apollo-client';
 import { createHttpLink } from 'apollo-link-http';
