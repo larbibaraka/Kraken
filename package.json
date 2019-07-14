@@ -12,7 +12,6 @@
     "react-apollo": "^2.5.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "uikit": "^3.1.6-dev.c9a65b5e9"
   },
   "files": [
     "*.js",
