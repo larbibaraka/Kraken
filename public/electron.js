@@ -12,6 +12,8 @@ function createWindow() {
      height: 740,
    })
 
+  mainWindow.setMenuBarVisibility(false)
+
   mainWindow.loadURL(
     process.env.ELECTRON_START_URL ||
       url.format({
