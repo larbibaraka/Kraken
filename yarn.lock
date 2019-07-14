@@ -10940,11 +10940,6 @@ uglify-js@3.4.x, uglify-js@^3.1.4:
     commander "~2.17.1"
     source-map "~0.6.1"
 
-uikit@^3.1.6-dev.c9a65b5e9:
-  version "3.1.6-dev.c9a65b5e9"
-  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.1.6-dev.c9a65b5e9.tgz#3b939cc4d0d8e007bb46dfd7a8a104148f1890b5"
-  integrity sha512-f2cR6mmj0tyRQd8lVppMHWHuRnuox4L5vINrllOMNPErYdRah9ySyhs2ghjtZZAG4utOQzhTzjfmUR/kl7yz+w==
-
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
