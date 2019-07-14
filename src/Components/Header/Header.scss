@@ -1,23 +1,15 @@
-.kr-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 67px;
+.kr-app-header-topMenu {
+  display: flex;
 
-  .kr-logo {
-    width: 80px;
-    height: 14px;
-    margin-left: 10px;
+  .kr-app-header-topMenu-logo {
+    padding: 18px;
   }
 
-  .kr-nav-buttons-block {
-    margin-left: auto;
-    margin-right: auto;
+  .kr-app-header-topMenu-dashButtons{
+    margin-top: 18px;
 
-    .kr-nav-buttons {
-      border-left: false;
+    .tabButton:hover {
+      border-color: #f0506e;
     }
-
   }
 }
