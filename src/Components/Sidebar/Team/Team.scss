@@ -1,0 +1,30 @@
+.kr-app-Sidebar-team {
+    margin-top: 15px;
+
+    .kr-app-Sidebar-team-header {
+        margin-left: 15px;
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+
+        .kr-app-Sidebar-team-header-add {
+            margin-left: 10px;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    .kr-app-Sidebar-team-content {
+        margin-top: 10px;
+
+        .search-users {
+
+        input {
+
+        }
+        }
+    }
+}
