@@ -1,0 +1,23 @@
+.kr-app-Sidebar-menu {
+    padding-top: 40px;
+    line-height: 40px;
+
+    .kr-app-Sidebar-menu-items {
+
+        .kr-app-Sidebar-menu-item {
+            display: block;
+            text-decoration: none;
+            padding-left: 20px;
+            color: #fff;
+
+            .kr-app-Sidebar-menu-item-text {
+                margin-left: 10px;
+            }
+        }
+
+        .kr-app-Sidebar-menu-item:hover {
+            background-color: #2D323B;
+        }
+    }
+
+}
