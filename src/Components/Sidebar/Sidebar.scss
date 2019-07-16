@@ -1,9 +1,18 @@
 .kr-app-Sidebar {
-    height: 100vh;
+    min-height: 93vh;
     width: 250px;
-    background-color: #f5f6fa;
+    background-color: #1B202A;
+    position: relative;
+
+    .Sidebar-collapse-BurgerIcon {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
+        fill: #fff;
+    }
 }
 
-.kr-app-Sidebar:hover {
-    box-shadow: 0 0px 10px 2px #dcdde1;
+.kr-app-Sidebar-hidden {
+    display: none;
 }
