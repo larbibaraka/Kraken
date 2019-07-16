@@ -1,12 +1,17 @@
 .kr-app-header-topMenu {
   display: flex;
+  box-shadow: 0 6px 8px 1px #dcdde1;
 
   .kr-app-header-topMenu-logo {
-    padding: 18px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .kr-app-header-topMenu-dashButtons{
-    margin-top: 18px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
 
     .tabButton:hover {
       border-color: #f0506e;
