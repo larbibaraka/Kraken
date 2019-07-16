@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Sidebar.scss';
+import Invite from './Invite/Invite';
 
 
 class Sidebar extends Component {
@@ -7,6 +8,7 @@ class Sidebar extends Component {
         return (
             <div className="kr-app-Sidebar">
                 123
+                <Invite />
             </div>
         )
     }
