@@ -6,19 +6,19 @@ class Menu extends Component {
         return (
             <div className="kr-app-Sidebar-menu">
                 <div className="kr-app-Sidebar-menu-items">
-                    <a className="kr-app-Sidebar-menu-item">
+                    <a href="/" className="kr-app-Sidebar-menu-item">
                             <span uk-icon="home"></span>
                             <span className="kr-app-Sidebar-menu-item-text">Home</span>
                     </a>
-                    <a className="kr-app-Sidebar-menu-item">
+                    <a href="/" className="kr-app-Sidebar-menu-item">
                         <span uk-icon="check"></span>
                         <span className="kr-app-Sidebar-menu-item-text">Taks</span>
                     </a>
-                    <a className="kr-app-Sidebar-menu-item">
+                    <a href="/" className="kr-app-Sidebar-menu-item">
                         <span uk-icon="bell"></span>
                         <span className="kr-app-Sidebar-menu-item-text">Inbox</span>
                     </a>
-                    <a className="kr-app-Sidebar-menu-item">
+                    <a href="/" className="kr-app-Sidebar-menu-item">
                         <span uk-icon="table"></span>
                         <span className="kr-app-Sidebar-menu-item-text">Portfolio</span>
                     </a>

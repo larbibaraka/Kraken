@@ -6,7 +6,7 @@ class Invite extends Component {
         return (
             <div className="kr-app-Sidebar-inviteFriends uk-position-bottom">
                 <div className="kr-app-Sidebar-inviteFriends-image">
-                    <img src="https://d3ki9tyy5l5ruj.cloudfront.net/obj/2bc490560c88fa94960b2e4919b4e6d524245ce4/invite_peeps.png" alt="" srcset=""/>
+                    <img src="https://d3ki9tyy5l5ruj.cloudfront.net/obj/2bc490560c88fa94960b2e4919b4e6d524245ce4/invite_peeps.png" alt="invite_ppls"/>
                 </div>
                 <div className="kr-app-Sidebar-inviteFriends-text">
                     Invite your team and start <br></br> collaborating!
