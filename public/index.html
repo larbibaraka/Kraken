@@ -9,14 +9,18 @@
     <title>Kraken</title>
     <style type="text/css">
       body {
-          overflow: hidden;
           font-family: 'Cairo', sans-serif;
           min-width: 900px;
           min-height: 900px;
           background-color: #FAFBFC;
+          overflow-x: hidden;
       }
       main {
-          display: flex;
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 250px;
+        background-color: #4D99FF;
+        min-height: 100vh;
       }
     </style>
   </head>
@@ -24,7 +28,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
   </body>
