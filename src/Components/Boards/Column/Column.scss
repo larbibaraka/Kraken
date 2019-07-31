@@ -1,0 +1,29 @@
+.kr-app-boards-content-column {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background-color: #EAEBEF;
+  border-radius: 2px;
+  width: 256px;
+
+  .kr-app-boards-content-column-header {
+    padding-left: 9px;
+    padding-top: 10px;
+
+  .kr-app-boards-content-column-name {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+  }
+
+  .kr-app-boards-content-column-tasksNumber {
+    display: inline;
+    margin-left: 6px;
+    font-weight: bold;
+  }
+  }
+}
+
+.kr-app-boards-content-column:last-child {
+  margin-right: 50px;
+}
