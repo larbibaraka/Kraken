@@ -8,7 +8,7 @@ class TaskType(DjangoObjectType):
 
 class Query(object):
     task = graphene.Field(TaskType, id=graphene.Int())
-    all_tasks = graphene.List(TaskType)
+    all_tasks = graphene.List(TaskType, first=graphene.Int(), columnId=graphene.Int())
 
     def resolve_task(self, info, **kwargs):
         id = kwargs.get('id')
@@ -18,5 +18,9 @@ class Query(object):
 
         return None
 
-    def resolve_all_tasks(self, info, **kwargs):
-        return Task.objects.all()
+    def resolve_all_tasks(self, info, first=None, columnId=None, **kwargs):
+        qs = Task.objects.filter(column=columnId).order_by('-id')
+
+        if first:
+            qs = qs[:first]
+        return qs
