@@ -1,6 +1,6 @@
 aniso8601==3.0.2
 django>=2.2.2
-channels=2.1.2
+channels==2.1.2
 django-cors-headers==3.0.2
 djangorestframework==3.9.4
 djangorestframework-jwt==1.11.0
