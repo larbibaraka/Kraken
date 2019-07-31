@@ -1,4 +1,11 @@
 .kr-app-board {
     margin-top: 25px;
     margin-left: 30px;
+
+    .kr-app-board-content{
+
+      .kr-app-boards-content-columns {
+        display: flex;
+      }
+    }
 }
