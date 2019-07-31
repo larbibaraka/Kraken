@@ -2,7 +2,7 @@
     min-height: 93vh;
     width: 250px;
     background-color: #1B202A;
-    position: relative;
+    position: fixed;
 
     .Sidebar-collapse-BurgerIcon {
         height: 30px;
@@ -10,6 +10,7 @@
         margin-right: 20px;
         margin-top: 10px;
         fill: #fff;
+        cursor: pointer;
     }
 }
 
