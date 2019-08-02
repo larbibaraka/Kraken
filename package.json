@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "browser": "^0.2.6",
     "graphql": "^14.3.1",
     "graphql-request": "^1.8.2",
     "node-sass": "^4.12.0",
@@ -30,7 +31,7 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node src/start-react",
-    "react-start": "BROWSER=none react-scripts start"
+    "react-start":  "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
