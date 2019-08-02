@@ -1,9 +1,17 @@
 .kr-app-Sidebar {
-    min-height: 93vh;
+    min-height: 100vh;
     width: 250px;
     background-color: #1B202A;
     position: fixed;
-
+    z-index:1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    left: 0;
+    top:0;
+    bottom:0;
+    .sidebar_wrapper{
+        padding: 34% 3%;
+    }
     .Sidebar-collapse-BurgerIcon {
         height: 30px;
         width: 30px;
