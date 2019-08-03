@@ -12,10 +12,10 @@ function App() {
       <Router>
       <Header />
       <Sidebar />
-          <main>
-              <Routes />
-              <Boards />
-          </main>
+      <main>
+          <Routes />
+          <Boards />
+      </main>
         </Router>
     </div>
   );
